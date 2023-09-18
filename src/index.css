@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{margin: 0;
+padding: 0;
+}
+body, button{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    margin-bottom: 2px;
+}
+.App{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+.card{
+    border: 1px solid #000;
+    padding-bottom: 30px;
+    border-radius: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
+.mibox{
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+
+img{
+    width: 100%;
+}
+
+.menu{
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.caja{
+    background-color: black;
+    display: inline-block;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.puntuacion{
+    color: white;
+    font-size: 1.8em;
+    margin: 4px 0 7px;
+    font-weight: bold;
+
+}
+
+.red{
+    color: red;
+    font-weight: bold;
+}
